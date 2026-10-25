@@ -97,7 +97,6 @@ public class Main {
         } while (continuar.equalsIgnoreCase("S"));
 
         System.out.println("\nNomina de " + nombreMes + " registrada.");
-        pausar();
     }
 
     private static void registrarEmpleadoFijo() {
@@ -143,7 +142,6 @@ public class Main {
             System.out.println("No hay empleados registrados en la nomina.");
             System.out.println("Cantidad de empleados: 0");
             System.out.printf("Total de la nomina: Q %.2f%n", 0.0);
-            pausar();
             return;
         }
 
@@ -167,8 +165,6 @@ public class Main {
         System.out.println("--------------------------------------------------------------------------");
         System.out.println("Cantidad de empleados: " + empleados.size());
         System.out.printf("Total de la nomina: Q %.2f%n", totalNomina);
-
-        pausar();
     }
 
     private static String leerDpi() {
@@ -244,4 +240,4 @@ public class Main {
         for (int i = 0; i < 30; i++) {
             System.out.println();
         }
-    }
+    }}
